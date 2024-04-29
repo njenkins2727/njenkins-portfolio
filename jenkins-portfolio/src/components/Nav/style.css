@@ -1,0 +1,37 @@
+/* NAV */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 90%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.hamburger-btn{
+    height: 3rem;
+    width: auto;
+}
+
+.hamburger-dropdown{
+    float: right;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+} 
+
+.dropdown-content{
+    background-color: cadetblue;
+    position: absolute;
+    width: 100%;
+    line-height: 2.5rem;
+}

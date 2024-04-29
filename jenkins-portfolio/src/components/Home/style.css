@@ -1,0 +1,48 @@
+.main{
+    width: 82.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-description{
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.intro-btn{
+    width: 7rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #737962;
+    border: solid 1px black;
+    border-radius: 10%;
+}
+
+.intro-btn:hover{
+    color: antiquewhite;
+    border: solid 1px #737962;
+    background-color: #41463D;
+}
+
+.icon-list{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.icon-img{
+    height: 3rem;
+    width: 3rem;
+}

@@ -15,4 +15,6 @@ If I want something to be 175px, I'd use 17.5rem to size it and get the advantag
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
+  background-color: #A4AC86;
 }
+  
