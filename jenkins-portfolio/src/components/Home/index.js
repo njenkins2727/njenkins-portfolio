@@ -16,8 +16,8 @@ export const Home = () => {
       <img className='icon-img' src='https://cdn-icons-png.flaticon.com/128/1260/1260667.png'></img>
       <img className='icon-img' src='https://cdn-icons-png.flaticon.com/128/5968/5968322.png'></img>
     </li>
-    
     </div>
+    <a className='word' id='projects'>word</a>
 
     {/* <p>New to the game and ready to shine. I offer a hardworking, focused and easy-going attitude. I am just a baby in the industry who is ready to be moulded into whatever tech you need me in. My devotion to the art will be sure to impress.</p> */}
    {/* <a href='#about' id='about' >About</a> 

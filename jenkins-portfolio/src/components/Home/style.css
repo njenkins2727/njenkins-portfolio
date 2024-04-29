@@ -46,3 +46,10 @@
     height: 3rem;
     width: 3rem;
 }
+
+.word{
+    display: flex;
+    justify-content: center;
+    margin-top: 400rem;
+    margin-bottom: 200rem;
+}

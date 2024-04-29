@@ -1,16 +1,23 @@
 /* NAV */
 nav{
+    transition: all 3s ease-in-out;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* width: 90%;
-    margin-left: auto;
-    margin-right: auto; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #737962;
+    transition: top 0.3s;
 }
 
 li, a{
     text-decoration: none;
     list-style: none;
+}
+
+.hidden{
+    top: -50px;
 }
 
 .hamburger-btn{
